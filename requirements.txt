@@ -1,0 +1,12 @@
+#tensorflow
+numpy
+pandas
+seaborn
+matplotlib
+plotly
+scikit-learn
+scipy
+#nbformat
+imblearn
+Jinja2
+ipywidgets
