@@ -48,22 +48,18 @@ El conjunto de datos contiene información detallada sobre cada transacción, co
 
 2. **Preprocesamiento:**
 
-   - Normalización y transformación de variables numéricas.
+   - Transformación de variables numéricas.
    - Codificación de variables categóricas como `type`.
-   - División de los datos en conjuntos de entrenamiento y prueba.
    - Eliminación de columnas redundantes o irrelevantes.
 
 3. **Selección de Características:**
 
    - Evaluación de la importancia de cada característica.
+   - División de los datos en conjuntos de entrenamiento y prueba.
 
-4. **Modelado:**
+4. **Modelado ML:**
 
-   - Entrenamiento de modelos supervisados como Random Forest, XGBoost y Redes Neuronales.
-   - Optimización de hiperparámetros utilizando búsqueda en cuadrícula o aleatoria.
-
-5. **Evaluación:**
-
+   - Entrenamiento de modelos supervisados como Random Forest y Decision Tree Classifier.
    - Métricas como precisión, recall, F1-score, y área bajo la curva ROC para medir el rendimiento.
 
 ---
@@ -85,26 +81,3 @@ El conjunto de datos contiene información detallada sobre cada transacción, co
   Análisis de patrones de fraude en reclamos y transacciones asociadas.
 
 ---
-
-## **Requisitos del Proyecto**
-
-- **Lenguaje:** Python 3.x
-- **Librerías principales:**
-  - Pandas, NumPy
-  - Matplotlib, Seaborn
-  - Scikit-learn, XGBoost
-  - TensorFlow o PyTorch (opcional)
-
----
-
-## **Cómo Contribuir**
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tu contribución (`git checkout -b feature/nueva-funcionalidad`).
-3. Envía un pull request describiendo tus cambios.
-
----
-
-### **Licencia**
-
-Este proyecto está disponible bajo la Licencia MIT.
